@@ -56,5 +56,19 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{09621721-59c8-435a-b275-89a228161cdc}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{d32f2318-a995-4d33-be99-f9f847b610c9}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PrimerParcial\Primer_Parcial.csproj">
+      <Project>{2015fb81-923f-493c-b1b6-af3ce2c643e5}</Project>
+      <Name>Primer_Parcial</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
